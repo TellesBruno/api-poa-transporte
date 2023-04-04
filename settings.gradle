@@ -1,0 +1,6 @@
+rootProject.name = 'api-poa-transport'
+include 'contract'
+include 'impl'
+include 'integration'
+include 'commons'
+

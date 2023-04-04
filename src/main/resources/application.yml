@@ -1,0 +1,21 @@
+url:
+  base:
+    api-poa-url: http://www.poatransporte.com.br/php/facades/process.php
+
+bus-line:
+  path:
+    get-all: ?a=nc&p=%&t=o
+    get-itinerary-by-id: ?a=il&p=
+
+taxi:
+  path:
+    taxi-stops: src/main/resources/taxiStops.txt
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/poatransport
+    username: postgres
+    password: 1111
+  jpa:
+    show-sql: true
+
